@@ -1,0 +1,63 @@
+.wcontainer {
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #4F7986;
+    height: 100vh;   
+}
+.ws {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    margin-bottom: 0px;
+    color: #e59d5c;
+}
+.icons {
+    height: 5em;
+}
+.description {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin:0px;
+    padding-bottom: 20px;
+    color:  #c9d1c8;
+}
+.royalton {
+    color:  #f3d3b8;
+}
+.royalton:hover {
+    color: #e59d5c;
+    text-decoration: underline #e59d5c;
+}
+.gridone, .gridtwo, .gridthree {
+    border: solid transparent 3px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .wcontainer {
+        display: flex;
+        align-items: center;
+        
+    }
+    .gridone, .gridtwo, .gridthree {
+        width: 30%;
+        margin-left:10px;
+        text-align:justify;
+        border: solid transparent 3px;
+        height: 400px;
+        text-align: center;
+    }
+    .icons {
+        height: 5em;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width:1024) {
+    .icons {
+        height: 5em;
+    }
+}

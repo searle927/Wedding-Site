@@ -1,0 +1,52 @@
+.registry {
+    height: 83vh;
+    background-color: #4F7986;
+}
+.tygifts {
+    margin: 1em 2em 2em 2em;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+    font-weight: 500;
+    color:  #c9d1c8;
+}
+.registrylist{
+    text-align: center;
+}
+.amazon {
+    width: 150px;
+    margin-bottom: 3em;
+}
+.potterybarn {
+    height: 60px;
+    width: 130px;
+    margin-bottom: 3em;
+}
+.williamssonoma {
+    width: 130px;
+    margin-bottom: 3em;
+}
+.crateandbarrel {
+    width: 140px;
+    margin-bottom: 3em;
+}
+.target {
+    width: 130px;
+    margin-bottom: 3em;
+}
+.nordstrom {
+    width: 130px;
+    margin-bottom: 3em;
+}
+
+@media screen and (min-width:768px){
+    .registryList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .tygifts {
+        font-size: 2em;
+        margin: 1em 5em;
+        text-align: center;
+    }
+}

@@ -1,0 +1,84 @@
+.rsvpContainer {
+    background-color: #4F7986;
+    height:100vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 25px;
+  }
+  .guestList {
+    color: #f3d3b8;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+    margin: 25px 0px;
+  }
+  .dropdown {
+    width: 88vw;
+    height: 25px;
+    margin: 5px, 30px;
+    border: solid black 2px;
+  }
+  input {
+    width: 87vw;
+    height: 20px;
+    border: solid black 2px;
+  }
+  li {
+    color: #c9d1c8;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+  }
+  label {
+    color: #c9d1c8;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+  }
+  .infoConf {
+    color: #c9d1c8;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    margin-left: 20px;
+  } 
+  .rsvpConfirmation {
+    color: #f3d3b8;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  p {
+    color: #c9d1c8;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+  }
+  .mainbtn, .secondarybtn {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: #c9d1c8;
+    color: #211f30;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px
+  }
+  .noGuest {
+    color: #c9d1c8;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+  }
+  
+  @media screen and (min-width:768px) {
+    .rsvpContainer {
+      display: flex;
+      height: 83vh;
+    }
+    .dropdown {
+      width: 60vw;
+    }
+    input {
+      width: 59vw;
+    }
+    .guests-section {
+      margin-left: 65px;
+    }
+  }
